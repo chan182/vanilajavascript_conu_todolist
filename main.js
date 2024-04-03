@@ -84,6 +84,7 @@ function deleteTask(id) {
 
    filter();
 }
+
 function filter(e) {
    if (e) {
       mode = e.target.id;
